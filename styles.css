@@ -1,0 +1,45 @@
+:root{
+    --main-color: #019df4;
+    --text-color: #0b2739;
+    --section-gray-color: #f2f4f2;
+    --section-form-color: #09202e;
+    --footer-color: #fffdfd;
+    --border-footer-color: #d3d4d3;
+    --text-link-color: #50535a;
+    --text-color-menu: #707070;
+}
+
+/* ****** fonts ******* */
+@font-face {
+    font-family:  Telefonica-Bold;
+    src: url('fonts/Telefonica-Bold.otf'); 
+}
+
+@font-face {
+    font-family:  Telefonica-Regular;
+    src: url('fonts/Telefonica-Regular.otf'); 
+}
+
+@font-face
+{
+    font-family:  Telefonica-Light;
+    src: url('fonts/Telefonica-Light.otf'); 
+}
+
+/* ***** */
+
+.uno{
+    font-family: Telefonica-Bold;
+}
+
+.dos
+{
+    font-family: Telefonica-Regular;
+}
+
+.tres
+{
+    font-family: Telefonica-Light;
+}
+
+
