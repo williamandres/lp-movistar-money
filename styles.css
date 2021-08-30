@@ -402,8 +402,6 @@ p
     {
         width: 90%;
         margin: 0 auto;
-        padding-bottom: 60px;
-        
     }
 
     @media screen and (min-width: 768px) {
@@ -436,13 +434,115 @@ p
             bottom: 0;
             right: 0;
         }
+
+        .last-paragraph
+        {
+            padding-bottom: 50px;
+        }
     }
 
     @media screen and (min-width: 1200px) {
         .third-section-image
         {
-            width: 490px;
-            height: 270px;
+            width: 590px;
+            height: 324px;
+        }
+
+        .third-section-content article:first-child
+        {
+            padding-top: 50px;
+        }
+    }
+/* *** */
+
+/* ** Footer ** */
+    .footer
+    {
+        border-top: 1px solid var(--border-footer-color);
+        text-align: center;
+        
+    }
+
+    .footer-container
+    {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        padding-bottom: 26px;
+    }
+
+    .more-about
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .more-about-title
+    {
+        font-size: 1rem;
+        font-family: var(--telefonica-bold);
+        color:var(--text-color-menu) ;
+        margin-bottom: 6px;
+        font-weight: lighter;
+    }
+
+    .more-about-link
+    {
+        font-size: 0.8rem;
+        font-family: var(--telefonica-regular);
+        color: var(--text-color-menu);
+        padding-bottom: 4px;
+    }
+
+    .secure-section
+    {
+        display: flex;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .secure-section-symbol
+    {
+        width: 29px;
+    }
+
+    .secure-section p
+    {
+        font-size: .8rem;
+        font-family: var(--telefonica-regular);
+        color: #86888c;
+    }
+
+    @media screen and (min-width: 1024px) {
+        .footer-container
+        {
+            
+            flex-direction: row;
+            align-items: center ;
+            justify-content: space-between;
+            width: 90%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .more-about
+        {
+            margin-top: 0;
+            text-align: left;
+        }
+
+        .more-about-link
+        {
+            font-size: .7rem;
+        }
+
+        .secure-section
+        {
+            width: 30%;
+            margin: 0;
         }
     }
 /* *** */
@@ -476,6 +576,8 @@ p
     {
         font-size: 1.1rem;
     }
+
+
 }
 
 /* *************** */
