@@ -38,6 +38,7 @@
 
 /* ****** Resets ******* */ 
 
+
 body{
     margin: 0;
     overflow-x: hidden;
@@ -77,15 +78,17 @@ p
     position: relative;
 }
 
+
 .hero-message-container
 {
     position: absolute;
-    right: -50%;
-    width: 200%;
+    
+    top: 0;
+    width: 100%;
     height: 290px;
-    background-color: var(--white-color);
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
+    background-color: white;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
     z-index: -1;
 }
 
@@ -142,7 +145,6 @@ p
     height: 318px;
     overflow: hidden;
     position: relative;
-    background: red;
     z-index: -3;
 }
 
@@ -507,6 +509,7 @@ p
     .secure-section-symbol
     {
         width: 29px;
+        padding-right: 10px;
     }
 
     .secure-section p
@@ -514,6 +517,7 @@ p
         font-size: .8rem;
         font-family: var(--telefonica-regular);
         color: #86888c;
+        text-align: left;
     }
 
     @media screen and (min-width: 1024px) {
