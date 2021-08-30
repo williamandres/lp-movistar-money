@@ -286,3 +286,147 @@ p
         font-size: 1rem;
     }
 }
+
+/* *** */
+
+
+
+/* ** first section ** */
+    .first-section
+    {
+        text-align: center;
+    }
+
+    .first-section p
+    {
+        font-family: var(--telefonica-light);
+        color: var(--text-color);
+        padding: 20px 0 60px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .first-section p strong
+    {
+        font-family: var(--telefonica-regular);
+    }
+
+    .first-section-form
+    {
+        background-color: var(--section-form-color);
+        height: 398px;
+    }
+
+    @media screen and (min-width: 1024px) {
+        .first-section
+        {
+            display: flex;
+        }   
+        
+        .first-section p 
+        {
+            width: 55%;
+            margin-left: 60px;
+            margin-right: 98px;
+            text-align: left;
+            padding-top: 90px;
+            padding-bottom: 0;
+        }
+
+        .first-section-form
+        {
+            width: 45%;
+        }
+    }
+
+    @media screen and (min-width: 1200px)
+    {
+        .first-section-form
+        {
+            
+            height: 410px;
+        }
+
+        .first-section p
+        {
+            font-size: 1.7rem;
+        }
+
+    }
+/* *** */
+
+
+/* ** Second Section ** */
+
+.second-section
+{
+    background-color: var(--section-gray-color);
+    padding-bottom: 26px;
+}
+
+.second-section-content
+{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.second-section-image
+{
+    width: 100%;
+}
+
+    @media screen and (min-width: 768px) {
+        .second-section
+        {
+            display: flex;
+            padding-bottom: 0;
+        }
+
+        .second-section-image
+        {
+            width: 50%;
+        }
+
+        .second-section-content
+        {
+            width: 50%;
+            margin: auto auto;
+            padding-right: 60px;
+        }
+    }
+
+/* *** */
+
+
+
+/* ****** Utilities ******* */
+
+.subtitle
+{
+    font-size: 1.1rem;
+    font-family: var(--telefonica-light);
+    color: var(--main-color);
+    margin: 30px 0 15px 0;
+}
+
+.section-paragraph
+{
+    font-size: 0.9rem;
+    font-family: var(--telefonica-regular);
+    color: var(--text-color);
+}
+
+@media screen and (min-width: 1200px) {
+    .subtitle
+    {
+        font-size: 1.8rem;
+    }
+
+    .section-paragraph
+    {
+        font-size: 1.1rem;
+    }
+}
+
+/* *************** */
+
