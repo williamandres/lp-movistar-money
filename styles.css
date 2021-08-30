@@ -397,6 +397,56 @@ p
 
 /* *** */
 
+/* ** Third Section ** */
+    .third-section
+    {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 60px;
+        
+    }
+
+    @media screen and (min-width: 768px) {
+
+        .third-section
+        {
+            display: flex;
+        }
+
+        .third-section-content
+        {
+            width: 50%;
+        }
+
+        .third-section-image-container
+        {
+            width: 50%;
+            position: relative;
+        }
+
+        .third-section-image
+        {
+            background-image: url("assets/tree.png");
+            background-size: cover;
+            width: 392px;
+            height: 216px;
+            background-repeat: no-repeat;
+            border-image: none;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .third-section-image
+        {
+            width: 490px;
+            height: 270px;
+        }
+    }
+/* *** */
+
 
 
 /* ****** Utilities ******* */
