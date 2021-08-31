@@ -614,24 +614,40 @@ p
         margin: 0 auto;
         margin-top: 20px;
         border-radius: 10px;
+        font-family: var(--telefonica-regular);
     }
 
     .terms_condition_content_title
     {
-        font-family: var(--telefonica-regular);
         font-size: 1rem;
         text-align: center;
         color: var(--text-color);
         margin-bottom: 20px;
     }
 
-    .terms_condition_content_p
+    .terms_condition_content_p, .terms_condition_content_list
     {
         width: 100%;
         font-size: .8rem;
-        font-family: var(--telefonica-regular);
         line-height: 20px;
         color: var(--terms-condition-text-color);
+        margin-top: 14px;
+    }
+
+    .terms_condition_content_subtitle
+    {
+        margin-top: 26px;
+        font-size: .9rem;
+    }
+
+    .terms_condition_content_list
+    {
+        padding-left: 16px;
+    }
+
+    .terms_condition_content_list_item
+    {
+        margin-top: 14px;
     }
 
 
@@ -697,6 +713,16 @@ p
         .terms_condition_logo
         {
             width: 165px;
+        }
+
+        .terms_condition_content_subtitle
+        {
+            font-size: 1.1rem;
+        }
+
+        .terms_condition_content_list_item
+        {
+            font-size: 1rem;
         }
     }
     
