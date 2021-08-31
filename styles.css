@@ -13,6 +13,7 @@
     --telefonica-regular: Telefonica-Regular;
     --telefonica-light: Telefonica-Light;
     --underline-color: #a13ea1;
+    --terms-condition-text-color: #313235;
 }
 
 
@@ -606,6 +607,34 @@ p
         
     }
 
+    .terms_condition_content
+    {
+        background-color: var(--white-color);
+        padding: 16px;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .terms_condition_content_title
+    {
+        font-family: var(--telefonica-regular);
+        font-size: 1rem;
+        text-align: center;
+        color: var(--text-color);
+        margin-bottom: 20px;
+    }
+
+    .terms_condition_content_p
+    {
+        width: 100%;
+        font-size: .8rem;
+        font-family: var(--telefonica-regular);
+        line-height: 20px;
+        color: var(--terms-condition-text-color);
+    }
+
+
     @media screen and (min-width: 768px) {
         .terms_condition_header
         {
@@ -647,7 +676,7 @@ p
     }
 
     @media screen and (min-width: 1024px) {
-        .terms_condition_body
+        .terms_condition_body, .terms_condition_content
         {
             padding: 46px 60px;
         }
@@ -655,12 +684,12 @@ p
 
     @media screen and (min-width: 1200px) {
 
-        .terms_condition_title
+        .terms_condition_title, .terms_condition_content_title
         {
             font-size: 1.2rem;
         }
         
-        .terms_condition_link
+        .terms_condition_link, .terms_condition_content_p
         {
             font-size: 1rem;
         }
