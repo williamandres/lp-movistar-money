@@ -181,6 +181,12 @@ p
     color: var(--text-link-color);
 }
 
+@media screen and (min-width: 340px) {
+    .hero-message-container
+    {
+        height: 330px;
+    }
+}
 @media screen and (min-width: 560px) {
     .hero-image-container
     {
