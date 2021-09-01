@@ -193,6 +193,15 @@ p
     {
         height: 340px;
     }
+
+    .hero-image-container{
+        height: 340px;
+    }   
+    
+    .hero-image
+    {
+        top: 30px;
+    }
 }
 
 @media screen and (min-width: 560px) {
