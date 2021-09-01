@@ -80,8 +80,20 @@ p
     position: relative;
 }
 
-
 .hero-message-container
+{
+    background-image: url("assets/hero-message-container.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 310px;
+    z-index: -1;
+}
+
+
+/* .hero-message-container
 {
     position: absolute;
     top: 0;
@@ -91,7 +103,7 @@ p
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
     z-index: -1;
-}
+} */
 
 .hero-message
 {
@@ -143,7 +155,7 @@ p
 
 .hero-image-container{
     width: 100%;
-    height: 318px;
+    height: 310px;
     overflow: hidden;
     position: relative;
     z-index: -3;
@@ -722,7 +734,7 @@ p
 
         .terms_condition_content_list_item
         {
-            font-size: 1rem;
+            font-size: 1remLi;
         }
     }
     
