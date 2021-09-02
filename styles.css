@@ -185,6 +185,17 @@ p
     .hero-message-container
     {
         height: 330px;
+        top: -20px;
+    }
+
+    .hero-image
+    {
+        top: 0px;
+    }
+
+    .hero-image-container
+    {
+        height: 320px;
     }
 }
 
@@ -192,15 +203,16 @@ p
     .hero-message-container
     {
         height: 340px;
+        top: -30px;
     }
 
     .hero-image-container{
-        height: 340px;
+        height: 320px;
     }   
     
     .hero-image
     {
-        top: 30px;
+        top: 0px;
     }
 }
 
@@ -208,15 +220,21 @@ p
     .hero-message-container
     {
         height: 360px;
+        top: -46px;
     }
 
     .hero-image-container{
-        height: 360px;
+        height: 380px;
     }   
     
     .hero-image
     {
-        top: 45px;
+        top: 0px;
+    }
+
+    .hero-link 
+    {
+        bottom: 60px;
     }
 }
 
@@ -225,6 +243,7 @@ p
     .hero-message-container
     {
         height: 360px;
+        top: -50px;
     }
 
     .hero-image-container{
@@ -233,7 +252,7 @@ p
     
     .hero-image
     {
-        top: 50px;
+        top: 0px;
     }
 }
 
@@ -241,11 +260,12 @@ p
     .hero-message-container
     {
         height: 380px;
+        top: -68px;
     }
 
     .hero-image
     {
-        top: 60px;
+        top: 0px;
     }
 }
 
@@ -263,7 +283,7 @@ p
     
     .hero-image
     {
-        top: 70px;
+        top: 20px;
     }
 }
 
