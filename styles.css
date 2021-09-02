@@ -250,11 +250,10 @@ p
         height: 360px;
     }   
     
-    .hero-image
+    .hero-link 
     {
-        top: 0px;
+        bottom: 90px;
     }
-}
 
 @media screen and (min-width: 400px) {
     .hero-message-container
@@ -263,11 +262,30 @@ p
         top: -68px;
     }
 
+    .hero-image-container{
+        height: 380px;
+        top: -10px;
+    }   
+
     .hero-image
     {
-        top: 0px;
+        
     }
 }
+
+@media screen and (min-width: 415px) {
+    .hero-message-container
+    {
+        height: 390px;
+        top: -96px;
+    }
+
+    .hero-image
+    {
+        top: -10px;
+    }
+}
+
 
 
 
